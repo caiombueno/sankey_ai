@@ -1,0 +1,54 @@
+name: sankey_ai
+description: "Sankey AI"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sankey_flutter: ^0.0.1
+  screenshot: ^3.0.0
+  path_provider: ^2.1.2
+  image_gallery_saver: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_flavorizr: ^2.3.1
+
+flutter:
+  uses-material-design: true
+
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    
+  flavors:
+    dev:
+      app:
+        name: "Sankey Ai Dev"
+      android:
+        applicationId: "com.caiobueno.sankey_ai.dev"
+      ios:
+        bundleId: "com.caiobueno.sankeyAi.dev"
+    
+    stg:
+      app:
+        name: "Sankey Ai Stg"
+      android:
+        applicationId: "com.caiobueno.sankey_ai.stg"  
+      ios:
+        bundleId: "com.caiobueno.sankeyAi.stg"
+    
+    prod:
+      app:
+        name: "Sankey Ai"
+      android:
+        applicationId: "com.caiobueno.sankey_ai"  
+      ios:
+        bundleId: "com.caiobueno.sankeyAi"
