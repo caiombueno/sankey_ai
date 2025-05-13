@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419173706869",
+    "project_id": "sankey-ai-dev",
+    "storage_bucket": "sankey-ai-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419173706869:android:279cb124542c1fdf155c3c",
+        "android_client_info": {
+          "package_name": "com.caiobueno.sankey_ai.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM3e9uXnO8YNH3npkdJeaUsDi4aAAaS9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
